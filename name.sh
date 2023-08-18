@@ -1,5 +1,5 @@
 #!/bin/bash 
-x=ramesh
-y=suresh 
-echo " $x:Hi $y, How are you "
-echo " $y:I am fine $x,How bout you "
+x=$1
+y=$2 
+echo "$x:Hi $y, How are you "
+echo "$y:I am fine $x,How bout you "
